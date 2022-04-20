@@ -1,0 +1,53 @@
+*{
+  font-family: sans-serif;
+}
+
+p{
+  font-weight: 100;
+}
+.page-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.page-title{
+  display: flex;
+  align-items: center;
+  padding: .5rem;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+
+.main-nav{
+  display: flex;
+}
+
+.subnav{
+  display: flex;
+  justify-content: space-evenly;
+  border-style: solid none;
+  border-color: lightgray;
+  border-width: 0.07rem;
+}
+
+.subnav-button{
+
+}
+
+.blog-posts{
+  display: flex;
+  flex-direction: column;
+}
+
+.post{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-style: none none solid;
+  border-color: lightgray;
+  border-width: 0.07rem;
+}
