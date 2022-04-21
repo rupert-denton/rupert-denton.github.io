@@ -49,6 +49,12 @@ h2{
 }
 
 .subnav-button {
+  text-decoration: none;
+  color: inherit;
+}
+
+.subnav-button:hover{
+  color: grey;
 }
 
 .blog-posts {
