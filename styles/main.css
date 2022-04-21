@@ -22,13 +22,7 @@ h1 {
 .page-title {
   display: flex;
   align-items: center;
-  padding: 0.5rem;
-  margin-top: 2rem;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
+  margin: 0.5rem 0rem .5rem 0rem;
 }
 
 .main-nav {
@@ -54,23 +48,20 @@ h1 {
 }
 
 .post {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
   align-items: center;
-  padding: 1rem;
   border-style: none none solid;
   border-color: lightgray;
   border-width: 0.07rem;
 }
 
 .details-container {
-  padding-right: 2rem;
-  border-right-style: solid;
-  border-color: lightgrey;
-  border-width: 0.07rem;
+  padding-left: 2rem;
+ 
 }
 
-.post-meta{
+.post-meta {
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
@@ -83,19 +74,28 @@ h1 {
   margin: 0;
   font-family: serif;
   font-weight: 400;
-  color: grey;
+  color: #c8c8c8
 }
 
-.image-container{
+.image-container {
   margin-bottom: 1rem;
 }
 
 .post-img {
   border-radius: 50%;
+  height: 13rem;
 }
 
 .post-container {
-  padding-left: 1rem;
+  height:100%;
+  padding-left: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-left-style: solid;
+  border-color: lightgrey;
+  border-width: 0.07rem;
+
 }
 
 .post-text {
