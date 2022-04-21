@@ -10,6 +10,10 @@ h1 {
   margin: 0rem;
 }
 
+h2{
+  margin:0rem;
+}
+
 .page-container {
   display: flex;
   flex-direction: column;
@@ -25,10 +29,15 @@ h1 {
   margin: 0.5rem 0rem .5rem 0rem;
 }
 
+.page-header{
+  margin: 0 2rem 0rem;
+  font-size: 2rem;
+}
+
 .main-nav {
   display: flex;
   align-items: flex-end;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 
 .subnav {
@@ -58,7 +67,7 @@ h1 {
 
 .details-container {
   padding-left: 2rem;
- 
+  padding-right: 2rem;
 }
 
 .post-meta {
@@ -95,8 +104,41 @@ h1 {
   border-left-style: solid;
   border-color: lightgrey;
   border-width: 0.07rem;
-
 }
 
-.post-text {
+@media (max-width: 750px) {
+  .post {
+    display: grid;
+    grid-template-columns: 1fr;
+    border-style: none none solid;
+    border-color: lightgray;
+    border-width: 0.07rem;
+    justify-items: center;
+  }
+
+  .details-container{
+    padding: 0;
+  }
+
+  .post-meta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .post-img{
+    height: 10rem;
+  }
+
+  .post-container{
+    height: 100%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-color: lightgrey;
+    border-width: 0.07rem;
+}
+  }
 }
