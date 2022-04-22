@@ -109,7 +109,7 @@ h2 {
 .article-container {
   height: 100%;
   display: grid;
-  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-columns: 1fr 5fr 1fr;
 }
 
 .article-text{
@@ -161,4 +161,11 @@ h2 {
     border-color: lightgrey;
     border-width: 0.07rem;
   }
+
+  .article-container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 13fr 1fr;
+  }
+  
 }
