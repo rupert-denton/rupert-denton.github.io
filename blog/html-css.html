@@ -5,6 +5,7 @@
     <link rel="icon" type="image/x-icon" href="../img/favicon/favicon-32x32.png">
     <meta charset="UTF-8" />
     <link href="../styles/blog-post.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
   <body>
@@ -18,7 +19,7 @@
         </div>
       </div>
       <div class="subnav">
-        <a class="subnav-button" href="../projects.html">
+        <a class="subnav-button" href="../index.html">
           <h3 class="subnav-title">Projects</h3>
         </a>
         <a class="subnav-button" href="../blog.html">
@@ -63,7 +64,11 @@
               Prior to the CSS Box Model websites more or less just looked like <a class="read-more" href="http://info.cern.ch/hypertext/WWW/TheProject.html" target="_blank">Tim Berners-Lee’s debut website.</a>
               <br>
               <br>
-              CSS Box Model was revolutionary because it established from there on out all HTML elements would be considered “boxes” with the five changeable dimensions:
+              CSS Box Model was revolutionary because it established from there on out all HTML elements would be considered <span class="box" style="color:red;" onMouseOver="let elements = document.querySelectorAll('*'); for (let i = 0; i < elements; i++){
+                console.log(elements[i])
+                elements[i].style.border = 'solid 1px red';"
+              }
+              >“boxes”</span> with the five changeable dimensions:
               <br>
               <br>
                 1. Height & Width
