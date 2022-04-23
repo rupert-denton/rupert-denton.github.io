@@ -2,6 +2,12 @@
   font-family: sans-serif;
 }
 
+/* this feels hacky */
+html, body { 
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 p {
   font-weight: 100;
 }
