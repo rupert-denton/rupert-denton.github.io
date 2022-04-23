@@ -2,12 +2,6 @@
   font-family: sans-serif;
 }
 
-/* this feels hacky */
-html, body { 
-  max-width: 100%;
-  overflow-x: hidden;
-}
-
 p {
   font-weight: 100;
 }
@@ -66,6 +60,7 @@ h2 {
 .blog-posts {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .article {
@@ -141,7 +136,7 @@ h2 {
 .subtitle {
   text-decoration: underline;
   color: black;
-  font-family: serif;
+  font-family: sans-serif;
   font-weight: 600;
 }
 
@@ -183,7 +178,7 @@ h2 {
   .article-container {
     height: 100%;
     display: grid;
-    grid-template-columns: 1fr 13fr 1fr;
+    grid-template-columns: 1fr 8fr 1fr;
   }
 
   .article-text {
