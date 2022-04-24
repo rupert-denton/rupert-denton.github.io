@@ -67,6 +67,17 @@ h2 {
   color: grey;
 }
 
+.project-read-more {
+  text-decoration: none;
+  font-weight: 400;
+  color: inherit;
+  padding: 0 2rem 0 1rem;
+}
+
+.project-read-more:hover {
+  color: grey;
+}
+
 .slug-text{
   font-size: 1.5rem;
   
@@ -130,6 +141,24 @@ h2 {
   border-width: 0.07rem;
 }
 
+.project-container {
+  height: 100%;
+  padding-left: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  border-left-style: solid;
+  border-color: lightgrey;
+  border-width: 0.07rem;
+}
+
+.project-post{
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem 0 1rem;
+  text-align: justify;
+}
+
 @media (max-width: 750px) {
 
   .main-nav{
@@ -174,4 +203,18 @@ h2 {
     border-color: lightgrey;
     border-width: 0.07rem;
   }
+
+  .project-container {
+    height: 100%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left-style: none;
+    border-color: lightgrey;
+    border-width: 0.07rem;
+  }
+
+  
 }
