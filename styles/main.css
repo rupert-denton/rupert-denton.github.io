@@ -167,12 +167,12 @@ h2 {
     font-size: 1.2rem;;
   }
 
-  .main-nav{
+  /* .main-nav{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: flex-end;
-  }
+  } */
 
   .post {
     display: grid;
