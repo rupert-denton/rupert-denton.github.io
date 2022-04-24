@@ -134,10 +134,14 @@ h2 {
 }
 
 .subtitle {
-  text-decoration: underline;
-  color: black;
-  font-family: sans-serif;
-  font-weight: 600;
+  margin: 0;
+  font-family: serif;
+  font-weight: 400;
+  color: #c8c8c8;
+}
+
+.quote{
+  font-style: italic;
 }
 
 @media (max-width: 750px) {
