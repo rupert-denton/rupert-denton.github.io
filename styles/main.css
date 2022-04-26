@@ -36,9 +36,9 @@ h2 {
 
 .main-nav {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 
 .subnav {
@@ -168,12 +168,12 @@ h2 {
     font-size: 1.2rem;;
   }
 
-  /* .main-nav{
+  .main-nav {
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
-    flex-direction: column;
-    align-items: flex-end;
-  } */
+    justify-content: flex-end;
+  }
 
   .post {
     display: grid;
