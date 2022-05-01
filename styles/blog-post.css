@@ -144,6 +144,22 @@ h2 {
   font-style: italic;
 }
 
+.code-block{
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
+}
+
+.code-font{
+  font-family: monospace;
+  font-size: .9rem;
+}
+
+.indent{
+  margin: 0rem 0rem 0rem 1.2rem
+}
+
 @media (max-width: 750px) {
   .post {
     display: grid;
