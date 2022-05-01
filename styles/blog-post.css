@@ -109,8 +109,8 @@ h2 {
 .article-container {
   height: 100%;
   display: grid;
-  grid-template-columns: 1fr 5fr 1fr;
- 
+  /* grid-template-columns: 1fr 5fr 1fr; */
+  padding: 0rem 8rem;
 }
 
 .article-text {
@@ -182,7 +182,8 @@ h2 {
   .article-container {
     height: 100%;
     display: grid;
-    grid-template-columns: 1fr 8fr 1fr;
+    /* grid-template-columns: 1fr 8fr 1fr; */
+    padding: 0rem 2.5rem;
   }
 
   .article-text {
